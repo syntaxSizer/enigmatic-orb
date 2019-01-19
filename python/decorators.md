@@ -40,7 +40,7 @@ def tell_em(func):
 you can try it and pass `say_hi` or `say_something`.
 
 
-### inner functions
+### Inner functions
 Functions defined whithin a function are called inner functions, they are just like local variables, defined only when the parent function get called and scoped to the parent function: meaning you can only call inner functions within its parent function scope
 
 ```
@@ -53,3 +53,30 @@ def parent():
     first()
     second()
 ```
+### Function returns function
+In python you can define a function to return a function
+
+for example:
+
+```
+def odd_or_even(number):
+    def odd():
+        return 'not divisable by 2'
+    def even():
+        return 'divisable by 2'
+    if number % 2 == 0:
+        return even
+    else:
+        return odd
+
+a = odd_or_even(1)
+b = odd_or_even(2)
+a()
+
+'not divisable by 2'
+
+b()
+
+'divisable by 2'
+```
+Note that `odd_or_even` returns a reference to a callable object (a function) which we store in varibles `a` & `b`.
