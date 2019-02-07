@@ -3,6 +3,11 @@
 As the topic to this workshop, app developments entails the process with which a developer would seek out a problem and build out a solution all in  a process that involves design thinking. 
 Slide 1-17 is a breakdown of the app development process whereas 18-26 was an extra something something on security vulnerabilities in regards to apps.
 
+## Resource link
+```
+https://docs.google.com/presentation/d/1DWjMCwStKEV3lhtNdP6xFkj2e0OC7gB61OxgciBltIk/edit?usp=sharing
+```
+
 ### Target Audience
 
 This workshop was prepared as a presentation to Pioneer University as an outreach initiative from Moringa School to grow technology in Africa by sharing knowledge hence it is suitable to any developer who would desire to apply Design thinking or build out not just any application but one that truly serves the user's needs
